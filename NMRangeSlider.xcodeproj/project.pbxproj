@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6CAB581A1AE2BA8900E3AD39 /* NMRangeSlider_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB58191AE2BA8900E3AD39 /* NMRangeSlider_Tests.m */; };
+		BD77742D83BC13394840DD1E /* libPods-NMRangeSlider Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6902898E53816A735A41B8 /* libPods-NMRangeSlider Tests.a */; };
 		EC36F93715CD0B96009A1A04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93615CD0B96009A1A04 /* UIKit.framework */; };
 		EC36F93915CD0B96009A1A04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93815CD0B96009A1A04 /* Foundation.framework */; };
 		EC36F93B15CD0B96009A1A04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93A15CD0B96009A1A04 /* CoreGraphics.framework */; };
@@ -69,9 +70,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E6902898E53816A735A41B8 /* libPods-NMRangeSlider Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NMRangeSlider Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CAB58151AE2BA8900E3AD39 /* NMRangeSlider Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NMRangeSlider Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CAB58181AE2BA8900E3AD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CAB58191AE2BA8900E3AD39 /* NMRangeSlider_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMRangeSlider_Tests.m; sourceTree = "<group>"; };
+		CE00AAF62018F0D8770725CC /* Pods-NMRangeSlider Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMRangeSlider Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NMRangeSlider Tests/Pods-NMRangeSlider Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC36F93215CD0B96009A1A04 /* NMRangeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMRangeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC36F93615CD0B96009A1A04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EC36F93815CD0B96009A1A04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -128,6 +131,7 @@
 		EC6CCCBE180690AE00FBE743 /* slider-default7-handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-default7-handle.png"; sourceTree = "<group>"; };
 		EC6CCCBF180690AE00FBE743 /* slider-default7-handle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-default7-handle@2x.png"; sourceTree = "<group>"; };
 		ECF5E23E15CE798C00C30915 /* TAG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TAG; sourceTree = SOURCE_ROOT; };
+		FD53B29603A0B8409C67666E /* Pods-NMRangeSlider Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMRangeSlider Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMRangeSlider Tests/Pods-NMRangeSlider Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD77742D83BC13394840DD1E /* libPods-NMRangeSlider Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +156,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A17212BC5C251798558F1CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE00AAF62018F0D8770725CC /* Pods-NMRangeSlider Tests.debug.xcconfig */,
+				FD53B29603A0B8409C67666E /* Pods-NMRangeSlider Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6CAB58161AE2BA8900E3AD39 /* NMRangeSlider Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +191,7 @@
 				6CAB58161AE2BA8900E3AD39 /* NMRangeSlider Tests */,
 				EC36F93515CD0B96009A1A04 /* Frameworks */,
 				EC36F93315CD0B96009A1A04 /* Products */,
+				5A17212BC5C251798558F1CC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,6 +210,7 @@
 				EC36F93615CD0B96009A1A04 /* UIKit.framework */,
 				EC36F93815CD0B96009A1A04 /* Foundation.framework */,
 				EC36F93A15CD0B96009A1A04 /* CoreGraphics.framework */,
+				3E6902898E53816A735A41B8 /* libPods-NMRangeSlider Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -312,9 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CAB581F1AE2BA8A00E3AD39 /* Build configuration list for PBXNativeTarget "NMRangeSlider Tests" */;
 			buildPhases = (
+				8C6759BCFF03EEBF6248142E /* Check Pods Manifest.lock */,
 				6CAB58111AE2BA8900E3AD39 /* Sources */,
 				6CAB58121AE2BA8900E3AD39 /* Frameworks */,
 				6CAB58131AE2BA8900E3AD39 /* Resources */,
+				632A3E8DBC411B888B9574E3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -435,6 +453,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		632A3E8DBC411B888B9574E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMRangeSlider Tests/Pods-NMRangeSlider Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C6759BCFF03EEBF6248142E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6CAB58111AE2BA8900E3AD39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -487,6 +538,7 @@
 /* Begin XCBuildConfiguration section */
 		6CAB581D1AE2BA8A00E3AD39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE00AAF62018F0D8770725CC /* Pods-NMRangeSlider Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -527,6 +579,7 @@
 		};
 		6CAB581E1AE2BA8A00E3AD39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD53B29603A0B8409C67666E /* Pods-NMRangeSlider Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -617,6 +670,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NMRangeSlider-Demo/NMRangeSlider-Prefix.pch";
 				INFOPLIST_FILE = "NMRangeSlider-Demo/NMRangeSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -628,6 +682,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NMRangeSlider-Demo/NMRangeSlider-Prefix.pch";
 				INFOPLIST_FILE = "NMRangeSlider-Demo/NMRangeSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -643,6 +698,7 @@
 				6CAB581E1AE2BA8A00E3AD39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC36F92C15CD0B96009A1A04 /* Build configuration list for PBXProject "NMRangeSlider" */ = {
 			isa = XCConfigurationList;
